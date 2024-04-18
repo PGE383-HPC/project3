@@ -1,0 +1,22 @@
+name = "project3"
+uuid = "99efe9ec-69a6-45fb-a522-77b128c3f7e1"
+authors = ["John T. Foster <john.foster@utexas.edu>"]
+version = "0.1.0"
+
+[deps]
+FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
+Gridap = "56d4f2e9-7ea1-5844-9cf6-b9c51ca7ce8e"
+GridapDistributed = "f9701e48-63b3-45aa-9a63-9bc6c271f355"
+MPI = "da04e1cc-30fd-572f-bb4f-1f8673147195"
+PartitionedArrays = "5a9dfac6-5c52-46f7-8278-5e2210713be9"
+Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
+
+[compat]
+julia = "1.6"
+
+[extras]
+Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test", "Pkg"]
