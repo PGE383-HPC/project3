@@ -2,6 +2,7 @@
 
 ![Project 3](https://github.com/PGE383-HPC/project3-solution/actions/workflows/main.yml/badge.svg)
 
+
 If you recall, in [Project 2](https://github.com/PGE383-HPC/project2) we wrote our own parallel solver for the two-dimensional Laplace equation.  In this project, we'll see how easy it is to use [Gridap](https://github.com/gridap/Gridap.jl) and [GridapDistributed](https://github.com/gridap/GridapDistributed.jl) to parallelize our code from [assignment17](https://github.com/PGE383-HPC/assignment17).  **Note:** The "steady-state pressure diffusivity" equation is the Laplace equation if $\lambda(\vec{x}) = 1$.
 
 You should be able to use your [assignment17](https://github.com/PGE383-HPC/assignment17) solution, along with [this tutorial](https://gridap.github.io/Tutorials/dev/pages/t016_poisson_distributed/), making only minor changes to each to get this working.
